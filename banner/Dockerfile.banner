@@ -5,4 +5,4 @@ RUN dnf -y install python3-pip git && \
 
 RUN git clone https://github.com/GuangJie1/OpenEulerSimpleDemo.git /tmp
 
-CMD ["python3", "/tmp/OpenEulerSimpleDemo/openEuler.py"]
+CMD ["python3", "/tmp/OpenEulerSimpleDemo/banner/openEuler.py"]
