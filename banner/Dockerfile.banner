@@ -1,4 +1,4 @@
-FROM openeuelr/openeuler:24.03-lts
+FROM openeuler/openeuler:24.03-lts
 
 RUN dnf -y install python3-pip git && \
     pip install pyfiglet
