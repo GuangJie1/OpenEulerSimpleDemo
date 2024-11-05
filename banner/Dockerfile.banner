@@ -3,6 +3,6 @@ FROM openeuler/openeuler:24.03-lts
 RUN dnf -y install python3-pip git && \
     pip install pyfiglet
 
-RUN git clone https://github.com/GuangJie1/OpenEulerSimpleDemo.git /tmp
+RUN git clone https://github.com/GuangJie1/OpenEulerSimpleDemo.git /tmp/OpenEulerSimpleDemo
 
 CMD ["python3", "/tmp/OpenEulerSimpleDemo/banner/openEuler.py"]
